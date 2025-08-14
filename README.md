@@ -1,1 +1,5 @@
-# Insurance-Fraud-Detection
+This project aims to detect potential insurance fraud cases using claims data. The dataset consists of 15,420 policy records, of which 94% are normal and 6% are fraudulent. Despite this imbalanced class distribution, a prediction model was developed using the Random Forest algorithm.
+
+In the data preprocessing phase, categorical variables were converted into numerical format, irrelevant columns were removed, and the dataset was split into training and testing sets for model training. Although the model achieved a high accuracy rate (94%), the detection rate for the minority class—fraudulent cases—was found to be low. Feature importance analysis revealed that variables such as Policyholder’s age, Week of the month of the accident and claim, Vehicle age, and Number of past claims were the most influential factors in the model’s decisions.
+
+This project provides a machine learning-based perspective for risk assessment and fraud prevention processes in the insurance sector. Future work will focus on improving fraud detection rates by addressing data imbalance (e.g., using SMOTE or class weighting) and experimenting with alternative algorithms.
